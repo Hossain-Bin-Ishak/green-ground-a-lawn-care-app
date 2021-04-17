@@ -1,18 +1,18 @@
 import React from 'react';
 import HeaderMain from '../HeaderMain/HeaderMain';
-import Navbar from '../Navbar/Navbar';
+import NavbarMenu from '../Navbar/NavbarMenu';
 import './Header.css';
 
 const Header = () => {
     return (
-       <div className="container">
-           <div className="row">
-           <div className="header-container">
-            <Navbar></Navbar>
-            <HeaderMain></HeaderMain>
+        <div className="header-container">
+            <div className="container">
+                <div className="row">
+                    <NavbarMenu></NavbarMenu>
+                    <HeaderMain></HeaderMain>
+                </div>
+            </div>
         </div>
-           </div>
-       </div>
     );
 };
 

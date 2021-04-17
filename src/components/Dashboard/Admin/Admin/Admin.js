@@ -1,9 +1,12 @@
 import React from 'react';
+import Sidebar from '../../Sidebar/Sidebar';
 
 const Admin = () => {
     return (
-        <div>
-            
+        <div className="container">
+            <div className="row">
+                <Sidebar></Sidebar>
+            </div>
         </div>
     );
 };

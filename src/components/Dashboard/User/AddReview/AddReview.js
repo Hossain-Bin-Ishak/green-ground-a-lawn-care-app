@@ -43,26 +43,26 @@ const AddReview = () => {
 
 
   return (
-      <div className="container ">
-        <div className="admin-area">
-          <div className="row">
-            <div className="col-md-3">
-              <Sidebar></Sidebar>
-            </div>
-        <div className="col-md-9">
-        <div className="form-area">
+    <div className="container ">
+      <div className="admin-area">
+        <div className="row">
+          <div className="col-md-3">
+            <Sidebar></Sidebar>
+          </div>
+          <div className="col-md-9">
+            <div className="form-area">
               <div className="text-center">
                 <form className="form-style" action="/addService" method="POST" onSubmit={handleSubmit(onSubmit)}>
-                  <input name="name" type="text" placeholder="Name" {...register("name", { required: true })}  />
+                  <input name="name" type="text" placeholder="Your Name" {...register("name", { required: true })} />
                   <br />
-                  <textarea type="textArea" name="description" id="" cols="30" rows="10" placeholder="Description" {...register("description", { required: true })}/>
-                  <br/>
-                  <input name="image" type="file" onChange={handleImageUpload} />
+                  <textarea type="textArea" name="description" id="" cols="30" rows="10" placeholder="Write Your Review" {...register("description", { required: true })} />
                   <br />
-                  <input className="btn btn-brand" type="submit" />
+                  <input className="custom-file-input" name="image" type="file" onChange={handleImageUpload} />
+                  <br />
+                  <input className="btn btn-brand text-white" type="submit" />
                 </form>
 
-                </div>
+              </div>
             </div>
           </div>
         </div>

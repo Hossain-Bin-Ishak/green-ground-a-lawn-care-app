@@ -1,0 +1,41 @@
+.logo img{
+    width: 30%;
+}
+
+.navbar-bg{
+    background-color: white;
+    opacity: .85;
+}
+
+.login-btn{
+    background-color:rgb(46, 190, 58);
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+}
+
+.signOutBtn{
+    background-color:rgb(80, 255, 147);
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+    border: none;
+    padding: 8px;
+    display: inline-block;
+}
+
+.header-area{
+    padding-top: 50px;
+} 
+
+.logo{
+    color: black;
+}
+
+
+.menu-area{
+    background-color: white;
+    opacity: .85;
+    border-radius: 5px;
+    margin-top: 20px;
+}

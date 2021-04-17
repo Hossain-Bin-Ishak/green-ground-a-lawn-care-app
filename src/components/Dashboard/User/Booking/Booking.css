@@ -1,0 +1,19 @@
+.booking-form-area{
+    width: 450px;
+}
+
+.booking-form input[type=text]{
+display: block;
+width: 450px;
+margin-bottom: 0px;
+}
+
+.booking-form input[type=email]{
+    display: block;
+    border: none;
+    border-bottom: 2px solid #ddd;
+    padding: 5px;
+    margin-left: 5px;
+    width: 450px;
+    margin-top: 0px;
+}

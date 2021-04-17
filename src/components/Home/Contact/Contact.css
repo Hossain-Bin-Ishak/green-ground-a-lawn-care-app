@@ -1,0 +1,51 @@
+.contact-form input[type="text"] {
+    width: 348px;
+    padding: 5px;
+    border: none;
+    display: inline-block;
+    border: 3px solid rgb(255, 255, 255);
+    background: none;
+}
+
+.contact-from-area{
+    margin: 0px auto;
+    width: 100%;
+    background-color: yellowgreen;
+}
+
+.contact-from-area form{
+    border: none;
+    margin: 0;
+}
+
+.contact-form input[type="submit"]{
+    display: block;
+    margin: 10px 0px;
+    
+}
+
+.contact-form textarea{
+    margin: 5px 0px;
+    display: block;
+    padding: 5px;
+    border: none;
+    border: 2px solid #ddd;
+}
+
+.contact-form-right-area{
+    background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../../../images/who-we-are-img.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    padding: 100px 80px;
+
+}
+
+.contact-form-right-area h5, h2{
+    color: white;
+    font-weight: 700;
+}
+
+.text-green{
+    color: yellowgreen;
+}

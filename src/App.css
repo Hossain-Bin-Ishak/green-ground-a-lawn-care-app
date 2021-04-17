@@ -3,7 +3,8 @@
     border-color: transparent;
     text-transform: uppercase;
     font-weight: 600;
+    border-radius: 5px;
   }
   .text-brand{
-    color: #05d405;
+    color: #ffffff;
   }
